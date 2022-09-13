@@ -7,8 +7,8 @@ The function receives one parameter health which will always be a whole number b
 */
 
 // My solution
-function checkAlive (health) {
-  if (health <= 0) {
+function checkAlive (HealthPoints) {
+  if (HealthPoints <= 0) {
     return false;  
   } else {
     return true;
@@ -16,6 +16,6 @@ function checkAlive (health) {
 }
 
 //Best practise
-function checkAlive(health) {
-  return health > 0;
+function checkAlive(HealthPoints) {
+  return HealthPoints > 0;
 }
