@@ -8,8 +8,8 @@ Example(Input --> Output):
 
 // My solution
 function reverseWords(str){
-  var a = str.split(' ').reverse().join(' ');
-  return a;
+  var b = str.split(' ').reverse().join(' ');
+  return b;
 }
 
 // Best solution
